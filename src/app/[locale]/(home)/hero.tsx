@@ -31,7 +31,7 @@ export function Hero() {
           animate="visible"
           transition={{ staggerChildren: 0.04 }}
         >
-          {t.description.split(" ").map((word, index, words) => {
+          {t.description?.split(" ").map((word, index, words) => {
             return (
               <motion.span
                 key={word + index}
