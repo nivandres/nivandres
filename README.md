@@ -2,21 +2,19 @@
 
 ---
 
-- **5⭐ Fiverr Freelancer** - I'm a freelancer with a focus on web application development and AI Chatbot Workflows.
-- **Intl-T 🌐** - I'm developing `intl-t` a Fully-Typed Object-Based i18n Translation Library for Web Apps with TypeScript.
-- **QuickAssistant🤖 (SaaS)** - Software as Service for building Chatbots integrated with an AI-Based CRM.
+- [**5⭐ Fiverr Freelancer** - I'm a freelancer with a focus on web application development and AI Chatbot Workflows.](https://www.fiverr.com/nivandres)
+- [**Intl-T 🌐** - I'm developing `intl-t` a Fully-Typed Object-Based i18n Translation Library for Web Apps with TypeScript.](https://www.npmjs.com/package/intl-t)
 
 ---
 
-  - JavaScript, TypeScript, Node.js, Bun.
-  - React, Next.js, Astro, Native.
-  - WebSocket, HTTP, REST API.
-  - Prisma, SQL, Redis, Supabase.
-  - Vercel, Fly.io, CF, AWS, OCI.
-  - Docker, Compose, GH Actions.
+- JavaScript, TypeScript, Node.js, Bun.
+- React, Next.js, Astro, Native.
+- WebSocket, HTTP, REST API.
+- Prisma, SQL, Redis, Supabase.
+- Vercel, Fly.io, CF, AWS, OCI.
+- Docker, Compose, GH Actions.
 
 ---
 
 - Spanish Native.
 - English Fluent.
-- Japanese Learner.
