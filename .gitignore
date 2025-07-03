@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+next-env.d.ts
+
+# misc
+.DS_Store
+
+# env
+.env*
+
+# locks
+bun.lock
+package-lock.json
+
+# i18n
+src/i18n/locales/*.d.json.ts

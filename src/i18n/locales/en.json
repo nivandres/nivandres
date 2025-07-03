@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "dir": "ltr",
+    "lang": "English"
+  },
+  "language": {
+    "title": "Language",
+    "select": "Select language",
+    "change": "Change language to {locale}"
+  },
+  "nav": {
+    "home": "Home",
+    "lang": "Choose language",
+    "theme": "Toggle theme"
+  },
+  "home": {
+    "title": "Hey, I am {name} 👋",
+    "description": "I am a Web Developer since 2022, passionate about building exceptional applications, products, and platforms. Specialized in AI chatbots and web applications."
+  },
+  "featured": {
+    "title": "Featured",
+    "intl-t": {
+      "title": "Intl-T Developer - A Fully-Typed Object-Based i18n Library",
+      "description": "I developed Intl-T, a fully-typed object-based i18n library for TypeScript and JavaScript with incredible developer experience."
+    },
+    "fiverr": {
+      "title": "5 Star Fiverr Seller",
+      "description": "I'm a freelancer providing high-quality services to my clients. If you need a reliable developer, check out my Fiverr profile."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "discord": {
+      "title": "Discord",
+      "description": "You can reach me on Discord for any inquiries or collaborations."
+    }
+  }
+}
