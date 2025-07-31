@@ -11,7 +11,7 @@ export default async function Home({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   return (
-    <main>
+    <main className="px-4">
       <Hero />
       <Featured />
       <Contact />
