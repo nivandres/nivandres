@@ -1,0 +1,25 @@
+name: Check
+on:
+  workflow_call:
+  push:
+    branches:
+      - main
+jobs:
+  check:
+    name: Format, lint, typecheck, and build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+      - name: Install deps
+        run: bun install
+      - name: Format
+        run: bun --bun prettier --check .
+      - name: Lint
+        run: bun --bun oxlint .
+      - name: Typecheck
+        run: bun run typecheck
+      - name: Build
+        run: bun run build
