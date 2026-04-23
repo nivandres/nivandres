@@ -14,14 +14,15 @@
     "theme": "Alternar tema"
   },
   "home": {
-    "title": "Hola, soy {name} 👋",
-    "description": "Soy un desarrollador web desde 2022, apasionado por construir aplicaciones excepcionales, productos y plataformas. Especializado en chatbots de IA y aplicaciones web."
+    "title": "Hey, soy {name} 👋",
+    "description": "Desarrollador web desde 2022, apasionado por construir aplicaciones, productos y plataformas excepcionales. Especializado en chatbots agentes con IA y aplicaciones web.",
+    "target": "Focus"
   },
   "featured": {
     "title": "Destacado",
     "intl-t": {
       "title": "Intl-T Developer - Libreria i18n tipada basada en nodos",
-      "description": "He desarrollado Intl-T, una librería de i18n completamente tipada basada en objetos para TypeScript y JavaScript con una experiencia de desarrollador increíble."
+      "description": "He desarrollado Intl-T, una librería de i18n completamente tipada basada en objetos para TypeScript con una experiencia de desarrollador excepcional."
     },
     "fiverr": {
       "title": "5 Estrellas Fiverr Seller",

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { LanguageSwitcher } from "@/components/utils/language";
-import { ThemeSwitcher } from "@/components/utils/theme";
+import { LocaleSelector } from "@/components/utils/language";
+import { ThemeToggle } from "@/components/utils/theme";
 import {
   Tooltip,
   TooltipTrigger,
@@ -9,8 +9,8 @@ import {
 import { getTranslation } from "@/i18n/translation";
 import { Link } from "@/i18n/navigation";
 
-export async function Navbar() {
-  const t = await getTranslation("nav");
+export function Navbar() {
+  const t = getTranslation("nav");
   return (
     <header className="z-50 sticky top-0 w-full">
       <nav className="h-16 shadow-xs backdrop-blur-[1px] flex items-center justify-between px-4">
@@ -31,20 +31,11 @@ export async function Navbar() {
           </Tooltip>
           <Tooltip delayDuration={500}>
             <TooltipTrigger asChild>
-              <div>
-                <LanguageSwitcher />
-              </div>
+              <LocaleSelector />
             </TooltipTrigger>
             <TooltipContent>{t.lang}</TooltipContent>
           </Tooltip>
-          <Tooltip delayDuration={500}>
-            <TooltipTrigger asChild>
-              <div>
-                <ThemeSwitcher />
-              </div>
-            </TooltipTrigger>
-            <TooltipContent>{t.theme}</TooltipContent>
-          </Tooltip>
+          <ThemeToggle />
         </div>
       </nav>
     </header>

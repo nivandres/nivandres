@@ -8,6 +8,7 @@ import {
   InstagramLogoIcon,
 } from "@radix-ui/react-icons";
 import { FaPaypal, FaReddit } from "react-icons/fa";
+import { getTranslation } from "@/i18n/translation";
 
 const socials = [
   {
@@ -80,10 +81,11 @@ const socials = [
 ];
 
 export function Contact() {
+  const t = getTranslation("contact");
   return (
     <section className="my-20">
       <h2 className="text-lg font-semibold text-muted-foreground mb-6">
-        Contact
+        {t.title}
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {socials.map((social) => (

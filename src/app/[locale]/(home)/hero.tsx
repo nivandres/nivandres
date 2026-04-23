@@ -4,22 +4,21 @@ import { Card, CardContent } from "@/components/ui/card";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "motion/react";
-import { getTranslation } from "@/i18n/translation";
+import { useTranslation } from "@/i18n/translation";
 import Image from "next/image";
-import React from "react";
 import { Tooltip, TooltipContent } from "@/components/ui/tooltip";
 import { TooltipTrigger } from "@radix-ui/react-tooltip";
 import Link from "next/link";
 
 export function Hero() {
-  const t = getTranslation("home");
+  const t = useTranslation("home");
   return (
     <section className="relative my-20 flex items-center justify-center flex-wrap gap-14">
       <div className="max-w-md space-y-4">
         <h1 className="font-semibold text-4xl">
           {t("title", {
             name: ({ key }) => (
-              <strong className="font-extrabold" key={key}>
+              <strong key={key} className="font-extrabold">
                 Ivan Vargas
               </strong>
             ),
@@ -31,7 +30,7 @@ export function Hero() {
           animate="visible"
           transition={{ staggerChildren: 0.04 }}
         >
-          {t.description?.split(" ").map((word, index, words) => {
+          {t.description.split(" ").map((word, index, words) => {
             return (
               <motion.span
                 key={word + index}
@@ -100,7 +99,7 @@ export function Hero() {
               🎯
             </Badge>
           </TooltipTrigger>
-          <TooltipContent side="right">Focusing</TooltipContent>
+          <TooltipContent side="right">{t("target")}</TooltipContent>
         </Tooltip>
       </motion.div>
     </section>

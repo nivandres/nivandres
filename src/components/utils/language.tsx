@@ -11,7 +11,7 @@ import { getTranslation } from "@/i18n/translation";
 import { meta } from "@/i18n/locales";
 import { Link } from "@/i18n/navigation";
 
-export function LanguageSwitcher() {
+export function LocaleSelector() {
   const t = getTranslation("language");
   return (
     <Sheet>
@@ -32,7 +32,7 @@ export function LanguageSwitcher() {
             key={locale}
             locale={locale}
             className="p-4 w-full bg-accent/30 backdrop-blur-xs rounded-sm"
-            title={t.change({ locale }).raw}
+            title={t.change({ locale })}
           >
             {meta[locale].lang}
           </Link>

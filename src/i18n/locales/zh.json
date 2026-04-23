@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "dir": "ltr",
+    "lang": "中文"
+  },
+  "language": {
+    "title": "语言",
+    "select": "选择语言",
+    "change": "将语言切换为{locale}"
+  },
+  "nav": {
+    "home": "首页",
+    "lang": "选择语言",
+    "theme": "切换主题"
+  },
+  "home": {
+    "title": "你好，我是{name} 👋",
+    "description": "我从 2022 年开始从事 Web 开发，热衷于构建出色的应用、产品和平台，专注于 AI 聊天机器人和 Web 应用。",
+    "target": "专注"
+  },
+  "featured": {
+    "title": "精选",
+    "intl-t": {
+      "title": "Intl-T Developer - 完全类型化的对象式 i18n 库",
+      "description": "我开发了 Intl-T，这是一款面向 TypeScript 和 JavaScript 的完全类型化对象式 i18n 库，拥有出色的开发体验。"
+    },
+    "fiverr": {
+      "title": "Fiverr 五星卖家",
+      "description": "我是一名自由开发者，为客户提供高质量服务。如果你需要可靠的开发者，可以查看我的 Fiverr 主页。"
+    }
+  },
+  "contact": {
+    "title": "联系",
+    "discord": {
+      "title": "Discord",
+      "description": "如有任何咨询或合作，欢迎通过 Discord 联系我。"
+    }
+  }
+}

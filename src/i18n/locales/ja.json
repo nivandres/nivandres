@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "dir": "ltr",
+    "lang": "日本語"
+  },
+  "language": {
+    "title": "言語",
+    "select": "言語を選択",
+    "change": "言語を{locale}に変更"
+  },
+  "nav": {
+    "home": "ホーム",
+    "lang": "言語を選択",
+    "theme": "テーマを切り替え"
+  },
+  "home": {
+    "title": "こんにちは、{name}です 👋",
+    "description": "2022年からWeb開発をしており、優れたアプリケーション、プロダクト、プラットフォームの構築に情熱を注いでいます。AIチャットボットとWebアプリケーションを専門としています。",
+    "target": "集中"
+  },
+  "featured": {
+    "title": "注目",
+    "intl-t": {
+      "title": "Intl-T Developer - 完全型付きのオブジェクトベースi18nライブラリ",
+      "description": "私はIntl-Tを開発しました。TypeScriptとJavaScript向けの、開発体験に優れた完全型付きオブジェクトベースi18nライブラリです。"
+    },
+    "fiverr": {
+      "title": "Fiverrで5つ星セラー",
+      "description": "私はクライアントに高品質なサービスを提供するフリーランサーです。信頼できる開発者が必要であれば、Fiverrのプロフィールをご覧ください。"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "discord": {
+      "title": "Discord",
+      "description": "ご相談やコラボレーションについてはDiscordでご連絡ください。"
+    }
+  }
+}

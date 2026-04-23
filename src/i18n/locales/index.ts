@@ -1,11 +1,23 @@
 export const meta = {
   en: {
     dir: "ltr",
-    lang: "English",
+    lang: "en",
   },
   es: {
     dir: "ltr",
-    lang: "Español",
+    lang: "es",
+  },
+  ja: {
+    dir: "ltr",
+    lang: "ja",
+  },
+  zh: {
+    dir: "ltr",
+    lang: "zh",
+  },
+  ar: {
+    dir: "rtl",
+    lang: "ar",
   },
 };
-export const allowedLocales = ["en", "es"] as const;
+export const allowedLocales = ["en", "es", "ja", "zh", "ar"] as const;

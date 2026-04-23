@@ -15,7 +15,8 @@
   },
   "home": {
     "title": "Hey, I am {name} 👋",
-    "description": "I am a Web Developer since 2022, passionate about building exceptional applications, products, and platforms. Specialized in AI chatbots and web applications."
+    "description": "I am a Web Developer since 2022, passionate about building exceptional applications, products, and platforms. Specialized in AI chatbots and web applications.",
+    "target": "Focusing"
   },
   "featured": {
     "title": "Featured",
