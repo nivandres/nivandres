@@ -1,19 +1,25 @@
-# dependencies
-/node_modules
+# modules
+node_modules
 
-# next.js
-/.next/
+# locks
+*.lock*
+
+# next
+.next
 next-env.d.ts
 
-# misc
-.DS_Store
+# vercel
+.vercel
 
 # env
 .env*
 
-# locks
-bun.lock
-package-lock.json
+# misc
+.DS_Store
+desktop.ini
 
 # i18n
-src/i18n/locales/*.d.json.ts
+*.d.json.ts
+
+# tsc
+*.tsbuildinfo
