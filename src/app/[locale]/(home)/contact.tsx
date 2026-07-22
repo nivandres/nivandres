@@ -80,8 +80,8 @@ const socials = [
   },
 ];
 
-export function Contact() {
-  const t = getTranslation("contact");
+export async function Contact() {
+  const t = await getTranslation("contact");
   return (
     <section className="my-20">
       <h2 className="text-lg font-semibold text-muted-foreground mb-6">

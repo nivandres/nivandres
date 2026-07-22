@@ -15,8 +15,8 @@ export const features = [
   },
 ] as const;
 
-export function Featured() {
-  const t = getTranslation("featured");
+export async function Featured() {
+  const t = await getTranslation("featured");
   return (
     <section className="flex flex-col max-w-3xl gap-6">
       <h2 className="text-lg font-semibold text-muted-foreground">{t.title}</h2>
